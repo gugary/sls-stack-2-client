@@ -66,7 +66,7 @@ export default class Home extends Component {
   return (
     <div className="lander">
       <h1>Scratch</h1>
-      <p>A very expensive note taking app</p>
+      <p>A simply note taking app</p>
       <div>
         <Link to="/login" className="btn btn-info btn-lg">
           Login
@@ -78,6 +78,7 @@ export default class Home extends Component {
     </div>
   );
 }
+
 
   renderNotes() {
     return (
